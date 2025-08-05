@@ -110,8 +110,8 @@ function renderCreateEditView(noteId = null) {
           <p class="text-[#4e7097] text-base font-bold leading-normal tracking-[0.015em] shrink-0 cursor-pointer" onclick="saveNote()">Save</p>
         </div>
       </div>
-      <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-        <label class="flex flex-col min-w-40 flex-1">
+      <div class="flex w-full flex-wrap items-end gap-4 px-4 py-3">
+        <label class="flex flex-col min-w-40 flex-1 w-full">
           <input
             id="note-title"
             placeholder="Title"
@@ -120,8 +120,8 @@ function renderCreateEditView(noteId = null) {
           />
         </label>
       </div>
-      <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-        <label class="flex flex-col min-w-40 flex-1">
+      <div class="flex w-full flex-wrap items-end gap-4 px-4 py-3">
+        <label class="flex flex-col min-w-40 flex-1 w-full">
           <textarea
             id="note-content"
             placeholder="Start writing..."
